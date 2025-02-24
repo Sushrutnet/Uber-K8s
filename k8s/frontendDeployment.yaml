@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:latest
+        image: sushrutnet/uber-frontend:latest
         ports:
         - containerPort: 80
 ---
